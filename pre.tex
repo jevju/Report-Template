@@ -1,0 +1,48 @@
+\documentclass{article}
+%\usepackage[utf8]{inputenc}
+
+\usepackage[left=4cm,right=4cm,top=3cm,bottom=3cm]{geometry}
+%\geometry{a4paper}
+
+%\usepackage{graphicx}
+
+%%% PACKAGES
+%\usepackage{booktabs} % for much better looking tables
+%\usepackage{array} % for better arrays (eg matrices) in maths
+%\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+%\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+%\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\usepackage{lastpage}
+
+\pagestyle{fancy} % options: empty , plain , fancy
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{}\rfoot{}
+
+% Thickness of line for header/ footer
+\renewcommand{\headrulewidth}{0.5pt} 
+\renewcommand{\footrulewidth}{0.5pt}
+
+% Header
+\lhead{\fancyplain{}{\courseCode: \thetitle{}}}\chead{}\rhead{\fancyplain{}{\theauthor{}}}
+% Pagenumber in footer
+\cfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+
+
+%%% SECTION TITLE APPEARANCE
+%\usepackage{sectsty}
+%\allsectionsfont{\sffamily\mdseries\upshape}
+
+%%% ToC (table of contents) APPEARANCE
+%\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+%\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+%\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+%\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% General formatting
+\setlength\parindent{0pt} % No indent for entire file
+
+
+%%% END Article customizations
