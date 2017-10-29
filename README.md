@@ -1,5 +1,5 @@
 # Latex report template 
-Technical report template written in latex.
+Template for a technical report written in latex.
 
 To download and use template, execute the following commands
 ```bash
