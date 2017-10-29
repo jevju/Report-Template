@@ -10,7 +10,7 @@ $ unzip master.zip
 $ rm master.zip
 ```
 
-Build project and convert to pdf
+Build project and convert to pdf. Might be necessary to run a couple of times to get the pagenumbering correct.
 ```bash
 $ pdflatex report.tex
 ```
