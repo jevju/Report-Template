@@ -1,4 +1,4 @@
-# Latex report template 
+# Latex report template
 Template for a technical report written in latex.
 
 To download and use template, execute the following commands
@@ -10,7 +10,7 @@ $ unzip master.zip
 $ rm master.zip
 ```
 
-Build project and convert to pdf. Might be necessary to run a couple of times to get the pagenumbering correct.
+Build project and convert to pdf.
 ```bash
-$ pdflatex report.tex
+$ ./build.sh
 ```
