@@ -1,4 +1,4 @@
-# Latex report template
+# LaTeX report template
 Template for a technical report written in latex.
 
 To download and use template, use the following commands
